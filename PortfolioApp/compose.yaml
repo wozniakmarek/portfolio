@@ -1,0 +1,7 @@
+﻿services:
+  portfolioapp:
+    image: portfolioapp
+    build:
+      context: .
+      dockerfile: PortfolioApp/Dockerfile
+
